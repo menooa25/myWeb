@@ -260,3 +260,56 @@ footer p{
     background-color: #333;
     color: #f9f9f9;
 }
+.contact-us,.contact-us p{
+    font-family: Sen,sans-serif;
+    color: #333;
+}
+.contact-us {
+    margin-top: 1rem;
+}
+.contact-us h2{
+    font-size: 2rem;
+    margin-bottom: .7rem;
+}
+.contact-us p{
+    font-size: .96rem;
+}
+.contact-us {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.contact-form input, .contact-form textarea {
+    box-sizing: border-box;
+    display:block;
+    width:50rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin: 1rem 0 1rem;
+    border: 1px solid ;
+    padding: 1rem .7rem 1rem; 
+}
+.contact-form textarea {
+    padding-top: .6rem;
+    min-height: 4rem;
+    min-width:50rem;
+}
+.contact-form input:hover ,.contact-form input:focus, .contact-form textarea:hover, .contact-form textarea:focus {
+    border-color: #eb5757;
+}
+.contact-form {
+    display:flex;
+    flex-direction: column;
+}
+.contact-form input:last-child {
+    box-sizing: content-box;
+    background-color: #eb5757;
+    color: #f9f9f9;
+    font-size: 1.1rem;
+    width: 5rem;
+    height: .7rem;
+    transition: background-color .4s;
+    border: none;
+}
+.contact-form input:last-child:hover {
+    background-color: #222;
+}
