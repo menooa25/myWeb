@@ -1,0 +1,262 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-family: Sen, sans-serif;
+    line-height: 1.5;
+    font-size: 1.2em;
+    color: #f9f9f9;
+    letter-spacing: 0.06em;
+}
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto 0;
+    padding-top: 2.5em;
+    color: #f9f9f9;
+    font-size: 4em;
+}
+a:link {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #f9f9f9;
+}
+a:visited {
+    color: #f9f9f9;
+}
+header {
+    background-color: #222;
+    position: sticky;
+    width: 100%;
+    z-index: 900;
+    top: 0;
+}
+footer{
+    padding-top: 4rem;
+    margin-top: 12rem;
+    background-color: #222;
+}
+.container {
+    margin: 0 19%;
+}
+.header-top-part {
+    display: flex;
+    justify-content: center;
+}
+.header-top-part p {
+    color:#f9f9f9;
+}
+.header-top-announcement:link {
+    align-self: center;
+    margin-right: 1em;
+    padding: 0.5em 1em;
+    border-radius: 19px;
+    background-color: #eb5757;
+}
+.header-nav {
+    display: flex;
+    background-color: #eb5757;
+    height: 4rem;
+}
+.header-bot-part {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-bot-part > div {
+    display: flex;
+} 
+.header-bot-part a:link{
+    border-radius: 5px;
+    display: block;
+    margin: 0.6em 1.2em;
+    padding: 0.4em;
+    transition: 0.35s background-color;
+    align-self: center;
+}
+.header-bot-part a:hover{
+    background-color: #222;
+}
+.main-header {
+    background-image:  linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("/image/1st-background.jpg");
+    background-size: cover;
+}
+.main-header p {
+    font-size: 1em;
+}
+.main-header a{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: .5em 1.5em .5em;
+    margin: 1em 0 7em;
+    display: inline-block;
+    font-weight: 550;
+    font-family: sans-serif;
+    font-size: 1em;
+    transition: 0.4s color,0.5s background-color;
+}
+.main-header a:hover {
+    background-color: #f9f9f9;
+    color: #222;
+}
+.support-section {
+    margin: 5em auto 5em;
+    display: flex;
+    justify-content: space-between;
+}
+.support-section p {
+    color: #333;
+    font-size: 1em;
+    margin: 0;
+}
+.support-section h2 {
+    font-family: Sen,sans-serif;
+    font-size: 2.4em;
+    color: #333;
+    margin-top: 0.1em;
+}
+.support-cards-section{
+    display: flex;
+    justify-content: space-between;
+}
+.support-cards-section div {
+    height: 21em;
+    width: 21em;
+    border-radius: 5px;
+    background-color: #222;
+    margin: 1em 0 1em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.support-cards-section  span{
+    color: white;
+    font-size: 2.3em;
+    font-family: Sen,sans-serif;
+    font-weight: bold;
+    margin: 1em;
+    position: absolute;
+    top: .5em;
+}
+span.card-text {
+    color: white;
+    font-family: Sen,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    align-self: center;
+    margin-top: 3em;
+}
+.support-cards-section p {
+    margin-top: 23em;
+    color: #333;
+    font-size: 1em;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+.footer-socialM {
+    display: flex;
+}
+.footer-socialM img{
+    height: 2rem;
+    width: 1.8rem;
+    margin: auto 1rem;
+    transition:opacity .3s;
+}
+footer a{
+    color: #eb5757;
+}
+footer a:visited{
+    color: #eb5757;  
+}
+footer p{
+    text-align: center;
+    font-size:.7rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+.footer-socialM img:hover {
+    opacity: .7;
+}
+.main-second-header {
+    background-color: #222;
+    margin-bottom: 4rem;
+}
+.main-second-header  h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f9f9f9;
+    font-size: 2rem;
+    margin: 0;
+    padding: 2rem 0 2rem;
+}
+/* card section*/
+.card {
+    text-align: center;
+}
+.card p {
+    color: #222;
+    margin: 1rem auto .2rem;
+}
+.card span {
+    font-family:Sen ,sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+}
+.product-image {
+    display: inline-block;
+    width: 19rem;
+    height: 26rem; 
+    background-image: url(/image/products/canvasPack.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 5px;
+}
+.detail-btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .6rem 1.7rem .6rem;
+    background-color: #eb5757;
+    border-radius: 5px;
+}
+/* card section*/
+.card-wraper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+.shopitems-top {
+    display: flex;
+}
+.category-wrapper {
+    margin-right: 1.3rem;
+}
+.category-wrapper h4{
+    font-family: Sen,sans-serif;
+    margin: 0 auto .7rem;
+    font-size:1.1rem;
+    letter-spacing: .06rem;
+    color: #444;
+}
+.category-wrapper a{
+    font-family: Sen,sans-serif;
+    border: 1px solid #222;
+    border-radius: 4px;
+    padding: .5em 6rem .5em 1rem;
+    margin: auto 0 1rem;
+    display: block;
+    font-family: sans-serif;
+    color: #333;
+    font-size: .9rem;
+    font-weight: 600;
+    transition: 0.4s color,0.5s background-color;
+}
+.category-wrapper a:hover {
+    background-color: #333;
+    color: #f9f9f9;
+}
